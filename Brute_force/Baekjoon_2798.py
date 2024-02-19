@@ -4,5 +4,9 @@ n, m = map(int, sys.stdin.readline().split())
 
 print(n, m)
 
-print(n)
-print(m)
+x = []
+
+for i in range(m):
+    x = list(map(int, i))
+
+print(x)
